@@ -12,7 +12,21 @@
 		8456CDD52316E6FC00A0D5E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456CDD32316E6FC00A0D5E5 /* Main.storyboard */; };
 		8456CDD72316E6FD00A0D5E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8456CDD62316E6FD00A0D5E5 /* Assets.xcassets */; };
 		8456CDDA2316E6FD00A0D5E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8456CDD82316E6FD00A0D5E5 /* LaunchScreen.storyboard */; };
+		8456CDEB2316E80F00A0D5E5 /* SwiftTipsInPracticeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456CDEA2316E80F00A0D5E5 /* SwiftTipsInPracticeTests.swift */; };
+		8456CDF42316E8FA00A0D5E5 /* Demo100ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456CDF32316E8FA00A0D5E5 /* Demo100ViewController.swift */; };
+		8456CDF72316EB7300A0D5E5 /* Demo99ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456CDF62316EB7300A0D5E5 /* Demo99ViewController.swift */; };
+		8456CDF92316EC1300A0D5E5 /* DependencyInjectionDemo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8456CDF82316EC1300A0D5E5 /* DependencyInjectionDemo.swift */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8456CDED2316E80F00A0D5E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8456CDC42316E6FC00A0D5E5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8456CDCB2316E6FC00A0D5E5;
+			remoteInfo = SwiftTipsInPractice;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		8456CDCC2316E6FC00A0D5E5 /* SwiftTipsInPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTipsInPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -22,10 +36,24 @@
 		8456CDD62316E6FD00A0D5E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8456CDD92316E6FD00A0D5E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8456CDDB2316E6FD00A0D5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8456CDE32316E7CD00A0D5E5 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8456CDE82316E80F00A0D5E5 /* SwiftTipsInPracticeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftTipsInPracticeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8456CDEA2316E80F00A0D5E5 /* SwiftTipsInPracticeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftTipsInPracticeTests.swift; sourceTree = "<group>"; };
+		8456CDEC2316E80F00A0D5E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8456CDF32316E8FA00A0D5E5 /* Demo100ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo100ViewController.swift; sourceTree = "<group>"; };
+		8456CDF62316EB7300A0D5E5 /* Demo99ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Demo99ViewController.swift; sourceTree = "<group>"; };
+		8456CDF82316EC1300A0D5E5 /* DependencyInjectionDemo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DependencyInjectionDemo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		8456CDC92316E6FC00A0D5E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8456CDE52316E80F00A0D5E5 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -39,6 +67,7 @@
 			isa = PBXGroup;
 			children = (
 				8456CDCE2316E6FC00A0D5E5 /* SwiftTipsInPractice */,
+				8456CDE92316E80F00A0D5E5 /* SwiftTipsInPracticeTests */,
 				8456CDCD2316E6FC00A0D5E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				8456CDCC2316E6FC00A0D5E5 /* SwiftTipsInPractice.app */,
+				8456CDE82316E80F00A0D5E5 /* SwiftTipsInPracticeTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -54,6 +84,7 @@
 		8456CDCE2316E6FC00A0D5E5 /* SwiftTipsInPractice */ = {
 			isa = PBXGroup;
 			children = (
+				8456CDE12316E75600A0D5E5 /* SwiftTips */,
 				8456CDCF2316E6FC00A0D5E5 /* AppDelegate.swift */,
 				8456CDD12316E6FC00A0D5E5 /* ViewController.swift */,
 				8456CDD32316E6FC00A0D5E5 /* Main.storyboard */,
@@ -62,6 +93,50 @@
 				8456CDDB2316E6FD00A0D5E5 /* Info.plist */,
 			);
 			path = SwiftTipsInPractice;
+			sourceTree = "<group>";
+		};
+		8456CDE12316E75600A0D5E5 /* SwiftTips */ = {
+			isa = PBXGroup;
+			children = (
+				8456CDF52316EB6200A0D5E5 /* 99 */,
+				8456CDF22316E8BB00A0D5E5 /* 100 */,
+				8456CDE22316E7B400A0D5E5 /* 102 */,
+			);
+			path = SwiftTips;
+			sourceTree = "<group>";
+		};
+		8456CDE22316E7B400A0D5E5 /* 102 */ = {
+			isa = PBXGroup;
+			children = (
+				8456CDE32316E7CD00A0D5E5 /* README.md */,
+			);
+			path = 102;
+			sourceTree = "<group>";
+		};
+		8456CDE92316E80F00A0D5E5 /* SwiftTipsInPracticeTests */ = {
+			isa = PBXGroup;
+			children = (
+				8456CDEA2316E80F00A0D5E5 /* SwiftTipsInPracticeTests.swift */,
+				8456CDEC2316E80F00A0D5E5 /* Info.plist */,
+			);
+			path = SwiftTipsInPracticeTests;
+			sourceTree = "<group>";
+		};
+		8456CDF22316E8BB00A0D5E5 /* 100 */ = {
+			isa = PBXGroup;
+			children = (
+				8456CDF32316E8FA00A0D5E5 /* Demo100ViewController.swift */,
+			);
+			path = 100;
+			sourceTree = "<group>";
+		};
+		8456CDF52316EB6200A0D5E5 /* 99 */ = {
+			isa = PBXGroup;
+			children = (
+				8456CDF62316EB7300A0D5E5 /* Demo99ViewController.swift */,
+				8456CDF82316EC1300A0D5E5 /* DependencyInjectionDemo.swift */,
+			);
+			path = 99;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -84,6 +159,24 @@
 			productReference = 8456CDCC2316E6FC00A0D5E5 /* SwiftTipsInPractice.app */;
 			productType = "com.apple.product-type.application";
 		};
+		8456CDE72316E80F00A0D5E5 /* SwiftTipsInPracticeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8456CDEF2316E80F00A0D5E5 /* Build configuration list for PBXNativeTarget "SwiftTipsInPracticeTests" */;
+			buildPhases = (
+				8456CDE42316E80F00A0D5E5 /* Sources */,
+				8456CDE52316E80F00A0D5E5 /* Frameworks */,
+				8456CDE62316E80F00A0D5E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8456CDEE2316E80F00A0D5E5 /* PBXTargetDependency */,
+			);
+			name = SwiftTipsInPracticeTests;
+			productName = SwiftTipsInPracticeTests;
+			productReference = 8456CDE82316E80F00A0D5E5 /* SwiftTipsInPracticeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -96,6 +189,10 @@
 				TargetAttributes = {
 					8456CDCB2316E6FC00A0D5E5 = {
 						CreatedOnToolsVersion = 10.3;
+					};
+					8456CDE72316E80F00A0D5E5 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = 8456CDCB2316E6FC00A0D5E5;
 					};
 				};
 			};
@@ -113,6 +210,7 @@
 			projectRoot = "";
 			targets = (
 				8456CDCB2316E6FC00A0D5E5 /* SwiftTipsInPractice */,
+				8456CDE72316E80F00A0D5E5 /* SwiftTipsInPracticeTests */,
 			);
 		};
 /* End PBXProject section */
@@ -128,6 +226,13 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		8456CDE62316E80F00A0D5E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -136,11 +241,30 @@
 			buildActionMask = 2147483647;
 			files = (
 				8456CDD22316E6FC00A0D5E5 /* ViewController.swift in Sources */,
+				8456CDF42316E8FA00A0D5E5 /* Demo100ViewController.swift in Sources */,
+				8456CDF92316EC1300A0D5E5 /* DependencyInjectionDemo.swift in Sources */,
 				8456CDD02316E6FC00A0D5E5 /* AppDelegate.swift in Sources */,
+				8456CDF72316EB7300A0D5E5 /* Demo99ViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8456CDE42316E80F00A0D5E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8456CDEB2316E80F00A0D5E5 /* SwiftTipsInPracticeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8456CDEE2316E80F00A0D5E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8456CDCB2316E6FC00A0D5E5 /* SwiftTipsInPractice */;
+			targetProxy = 8456CDED2316E80F00A0D5E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		8456CDD32316E6FC00A0D5E5 /* Main.storyboard */ = {
@@ -314,6 +438,46 @@
 			};
 			name = Release;
 		};
+		8456CDF02316E80F00A0D5E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LEG7CXMPKJ;
+				INFOPLIST_FILE = SwiftTipsInPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimieng.SwiftTipsInPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTipsInPractice.app/SwiftTipsInPractice";
+			};
+			name = Debug;
+		};
+		8456CDF12316E80F00A0D5E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LEG7CXMPKJ;
+				INFOPLIST_FILE = SwiftTipsInPracticeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.maimieng.SwiftTipsInPracticeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwiftTipsInPractice.app/SwiftTipsInPractice";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -331,6 +495,15 @@
 			buildConfigurations = (
 				8456CDDF2316E6FD00A0D5E5 /* Debug */,
 				8456CDE02316E6FD00A0D5E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8456CDEF2316E80F00A0D5E5 /* Build configuration list for PBXNativeTarget "SwiftTipsInPracticeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8456CDF02316E80F00A0D5E5 /* Debug */,
+				8456CDF12316E80F00A0D5E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
