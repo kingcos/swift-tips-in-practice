@@ -1,5 +1,7 @@
 # swift-tips-in-practice
 
+- Blog: [SwiftTips in Reverse](https://maimieng.com/posts/2019/swift_tips_in_reverse/)
+
 ## Preface
 
 [SwiftTips](https://github.com/johnsundell/swifttips) 是 [John Sundell](https://github.com/johnsundell) 在 GitHub 开源的 Swift 小技巧列表。随着 Swift 5 的发布以及 ABI 稳定，是时候再学习一遍 Swift 啦。本文将是该列表的实践版本，并保证文中代码的**可运行性**，且尽可能做到倒序~~日更~~。（But why in reverse? 🤫）

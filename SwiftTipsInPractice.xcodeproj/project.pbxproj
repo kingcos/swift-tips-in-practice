@@ -29,6 +29,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		316368A12317766600192CFB /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		8456CDCC2316E6FC00A0D5E5 /* SwiftTipsInPractice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftTipsInPractice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8456CDCF2316E6FC00A0D5E5 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8456CDD12316E6FC00A0D5E5 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -66,6 +67,7 @@
 		8456CDC32316E6FC00A0D5E5 = {
 			isa = PBXGroup;
 			children = (
+				316368A12317766600192CFB /* README.md */,
 				8456CDCE2316E6FC00A0D5E5 /* SwiftTipsInPractice */,
 				8456CDE92316E80F00A0D5E5 /* SwiftTipsInPracticeTests */,
 				8456CDCD2316E6FC00A0D5E5 /* Products */,
@@ -409,6 +411,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LEG7CXMPKJ;
 				INFOPLIST_FILE = SwiftTipsInPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -427,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = LEG7CXMPKJ;
 				INFOPLIST_FILE = SwiftTipsInPractice/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
